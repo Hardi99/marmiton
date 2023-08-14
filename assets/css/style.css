@@ -1,0 +1,113 @@
+/*
+Une règle CSS de base
+*/
+.container {
+    height: 100%;
+    width: 1024px;
+    margin: auto;
+  }
+
+  body {
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #EFEFEF;
+    font-size: 16px;
+  }
+
+header, main {
+    background: #fff;
+}
+
+header img {
+    width: 190px;
+    margin: 20px 0;
+}
+
+main {
+  border-radius: 10px;
+  margin-top: 63px;
+}
+
+section {
+  height: 100%;
+}
+
+main > section:first-child {
+    text-align: center;
+    padding: 60px 30px;
+}
+
+main > section:nth-child(2) {
+    padding: 0px 30px;
+    padding-bottom: 60px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #393C6C;
+  font-weight: 700;
+}
+
+h1 + p {
+  margin-top: 8px;
+  color: #6C6C6C;
+  font-size: 12px;
+}
+
+p + div {
+  margin-top: 39px;
+  margin-bottom: 60px;
+}
+
+.time {
+  background: #8A98B1;
+  font-size: 22px;
+  color: #fff;
+  padding: 9px 83px;
+  margin: 30px 0;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+}
+
+nav img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  font-weight: 700;
+}
+
+ul {
+  padding: 18px;
+  margin-bottom: 38px;
+}
+
+ul li {
+  list-style-type: disc;
+  line-height: 22px;
+  color: #6C6C6C;
+}
+
+h3 {
+  margin-top: 26px;
+  color: #393C6C;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+footer {
+  margin: 60px 0;
+  text-align: center;
+}
